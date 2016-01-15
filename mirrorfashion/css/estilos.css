@@ -51,6 +51,11 @@ body {
           width: 940px;
 }
 
+.busca {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px
+}
+
 .busca,
 .menu-departamentos	{
         background-color: #dcdcdc;
@@ -143,16 +148,21 @@ body {
         margin: 10px 0;
         padding: 10px;
         width: 445px;
+        border-radius: 4px;
+        box-shadow: inset 1px 1px 4px #999;
 }
 
 .novidades {
         float: left;
         background-color: #f5dcdc;
+        background: linear-gradient(#f5dcdc, #f4bebe);
 }
 
 .mais-vendidos {
         float: right;
         background-color: #dcdcf5;
+        background: #dcdcf5;
+        background: linear-gradient(#dcdcf5, #bebef4);
 }
 
 .produtos li {
@@ -190,7 +200,8 @@ body {
         font-size: 24px;
         font-weight: bold;
         text-transform: uppercase;
-        margin-bottom: 10px;        
+        margin-bottom: 10px;
+        text-shadow: 1px 1px 2px rgba(255,255,255,0.8);        
 }
 
 .painel h2:before {
