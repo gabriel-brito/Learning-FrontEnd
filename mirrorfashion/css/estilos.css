@@ -133,7 +133,7 @@ body {
 
 .pause,
 .play {
-    display: block;
+    display: none;
     position: absolute;
     right: 15px;
     top: 15px;
